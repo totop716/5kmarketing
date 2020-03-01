@@ -84,9 +84,11 @@
 
 
     <!-- CoreUI and necessary plugins-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="{{ asset('js/pace.min.js') }}"></script> 
     <script src="{{ asset('js/coreui.bundle.min.js') }}"></script>
     <script src="{{ asset('js/coreui-utils.js') }}"></script>
+    <script src="{{ asset('js/script.js') }}"></script>
     @yield('javascript')
 
 

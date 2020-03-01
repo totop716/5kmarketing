@@ -8,3 +8,40 @@
 .click-file{
     cursor:pointer;
 }
+
+.stepbarcontain{
+    margin: 0;
+    padding: 0;
+}
+.stepbarcontain li{
+    display: block;
+    padding: 0;
+}
+.stepbar{
+    width: 100%;
+    height: 30px;
+    background: #ddd;
+}
+.stepbarcontain li:first-child .stepbar{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.stepbarcontain li:last-child .stepbar{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-right: none;
+}
+.stepbarcontain li .stepbar{
+    border-right: 1px solid #fff;
+}
+.step-item.active .stepbar{
+    background: #008ec2;
+}
+.step-item p.stepbar_title{
+    text-align: center;
+    margin-top: 5px;
+}
+p.complete-text{
+    margin-top: 10px;
+    margin-left: 10px;
+}
